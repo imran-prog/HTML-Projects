@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    width: 250px;
+    background-image: url(winter.jpg);
+    background-size: cover;
+    height: 800px;
+    overflow-y: hidden;
+}
+
+nav{
+    padding-top: 190px;
+    background: url(rope_PNG18105.png) top left repeat;
+    background-size: 135px;
+}
+
+a{
+    display: block;
+    position: relative;
+    text-align: center;
+    background: purple;
+    color: white;
+    margin: 25px 0;
+    padding: 10px 0;
+    font-size: 20px;
+    font-family: cursive;
+    text-decoration: none;
+    border: 2px dashed pink;
+    outline: 6px solid purple;
+    backface-visibility: hidden;
+    transition: transform 0.2s ease-in-out;
+    z-index: 2;
+}
+
+a:hover{
+    text-decoration: none;
+    outline: 6px solid purple;
+}
+
+a:before{
+    top: -5px;
+    bottom: -5px;
+    left: -8px;
+    right: -8px;
+    box-shadow: 0 0 10px 1px #000;
+    border-radius: 0px;
+    content: '';
+    position: absolute;
+    z-index: -2;
+}
+
+a:nth-child(odd){
+    transform: rotate(-3deg);
+}
+
+a:nth-child(even){
+    transform: rotate(2deg);
+}
+
+a:hover:nth-child(odd), a:hover:nth-child(even){
+    transform: rotate(0deg);
+}

@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link href="jquery.fancybox.min.css" rel="stylesheet"/>
+        <link href="main.css" rel="stylesheet"/>
+        
+        <script src="jquery-1.10.2.min.js"></script>
+        <script src="jquery.fancybox.min.js"></script>
+    </head>
+    <body>
+        
+        <center>
+        
+        <a data-fancybox="gallery" href="img1.jpg" data-caption="Captain America"><img src="img1.jpg"></a>
+        <a data-fancybox="gallery" href="img2.jpg" data-caption="Deadpoll"><img src="img2.jpg"></a>
+        <a data-fancybox="gallery" href="img3.jpg" data-caption="The Flash"><img src="img3.jpg"></a>
+        <a data-fancybox="gallery" href="img4.jpg" data-caption="Batman"><img src="img4.jpg"></a>
+        <a data-fancybox="gallery" href="img5.jpg" data-caption="The Flash"><img src="img5.jpg"></a>
+        <a data-fancybox="gallery" href="img6.jpg" data-caption="Iron Man"><img src="img6.jpg"></a>
+        
+        </center>
+        <script type="text/javascript">
+            $('[data-fancybox]').fancybox({
+	              loop: true,
+                buttons: [
+                     "zoom",
+                     "share",
+                     "slideShow",
+                     "fullScreen",
+                     "download",
+                     "thumbs",
+                     "close"
+               ],
+                animationEffect: "zoom-in-out",
+                transitionEffect: "rotate",
+            });
+        </script>
+    </body>
+</html>
+
+

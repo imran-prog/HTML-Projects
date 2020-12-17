@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Weather Card UI</title>
+        <link rel="stylesheet" type="text/css" href="Style.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.more').click(function(){
+                    $('.back').addClass('active')
+                    $('.front').removeClass('active')
+                })
+                $('.go-back').click(function(){
+                    $('.back').removeClass('active')
+                    $('.front').addClass('active')
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <div class="card">
+            <div class="front active">
+                <div class="Location">Islamabad</div>
+                <div class="more"><i class="fa fa-info-circle" aria-hidden="true"></i></div>
+                <div class="weather">
+                    <i class="fa fa-cloud" aria-hidden="true"></i>
+                    <h1>23<sup>o</sup><br><span>Today</span></h1>
+                </div>
+                <ul class="forecast">
+                    <li>
+                        <div class="day">Sunday</div>
+                        <div class="tempreture"><i class="fa fa-cloud" aria-hidden="true"></i> 24<sup>o</sup></div>
+                    </li>
+                    <li>
+                        <div class="day">Monday</div>
+                        <div class="tempreture"><i class="fa fa-sun" aria-hidden="true"></i> 31<sup>o</sup></div>
+                    </li>
+                    <li>
+                        <div class="day">Tuesday</div>
+                        <div class="tempreture"><i class="fa fa-tint" aria-hidden="true"></i> 28<sup>o</sup></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="back">
+                <div class="go-back"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></div>
+                
+                <ul class="forecast">
+                    <li>
+                        <div class="day">Yesterday</div>
+                        <div class="tempreture"><i class="fa fa-cloud" aria-hidden="true"></i> 24<sup>o</sup></div>
+                    </li>
+                    <li>
+                        <div class="day">Today</div>
+                        <div class="tempreture"><i class="fa fa-tint" aria-hidden="true"></i> 23<sup>o</sup></div>
+                    </li>
+                    <li>
+                        <div class="day">Tommorrow</div>
+                        <div class="tempreture"><i class="fa fa-cloud" aria-hidden="true"></i> 23<sup>o</sup></div>
+                    </li>
+                    <li>
+                        <div class="day">Sunday</div>
+                        <div class="tempreture"><i class="fa fa-tint" aria-hidden="true"></i> 28<sup>o</sup></div>
+                    </li>
+                    <li>
+                        <div class="day">Monday</div>
+                        <div class="tempreture"><i class="fa fa-cloud" aria-hidden="true"></i> 28<sup>o</sup></div>
+                    </li>
+                    <li>
+                        <div class="day">Tuesday</div>
+                        <div class="tempreture"><i class="fa fa-cloud" aria-hidden="true"></i> 32<sup>o</sup></div>
+                    </li>
+                    <li>
+                        <div class="day">Wednesday</div>
+                        <div class="tempreture"><i class="fa fa-cloud" aria-hidden="true"></i> 32<sup>o</sup></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

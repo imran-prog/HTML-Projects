@@ -1,0 +1,123 @@
+        
+body{
+    margin: 0;
+    padding: 0;
+    background: #000;
+    font-family: sans-serif;
+}
+
+.headers-bg{
+    width: 100%;
+    height: 100vh;
+    background: url(image.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section{
+    padding: 100px;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background: #000;
+}
+
+section h1{
+    margin: 0 0 50px;
+    padding: 0;
+    font-size: 60px;
+    color: #fff;
+}
+
+section{
+    color: #fff;
+    font-size: 20px;
+}
+
+.header-bg{
+    width: 100%;
+    height: 100vh;
+    background: url(bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.footer-bg{
+    width: 100%;
+    height: 100vh;
+    background: url(GLUviaz.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.first-bg{
+    width: 100%;
+    height: 100vh;
+    background: url(Wonder-Woman.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.firsts-bg{
+    width: 100%;
+    height: 100vh;
+    background: url(The-Flash-Season-5.-Release-Date-Villain-Cast-Plot-Details.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.first1-bg{
+    width: 100%;
+    height: 100vh;
+    background: url(Ray-Fisher-as-Cyborg-in-Justice-League.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.first2-bg{
+    width: 100%;
+    height: 100vh;
+    background: url(aquaman.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.first3-bg{
+    width: 100%;
+    height: 100vh;
+    background: url(green.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+         
+.arrow-bg {
+    width: 100%;
+    height: 100vh;
+    background: url(green%20arrow.jpg);
+    background-size: cover;
+    background-attachment: fixed;       
+}
+
+.shazam-bg {
+    width: 100%;
+    height: 100vh;
+    background: url(shazam.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.martian-bg {
+    width: 100%;
+    height: 100vh;
+    background: url(martian.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.super-bg {
+    width: 100%;
+    height: 100vh;
+    background: url(super%20girl.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
